@@ -1,0 +1,145 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #343a40, #495057);
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tab-btn {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover,
+.tab-btn.active {
+  background-color: #0d6efd;
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.4);
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Sections */
+#controls,
+#visualizer {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #343a40;
+  border-left: 4px solid #0d6efd;
+  padding-left: 0.5rem;
+}
+
+/* Algorithm Controls */
+#algorithm-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+#algorithm-controls label {
+  font-weight: 500;
+}
+
+#algorithm-controls input,
+#algorithm-controls select,
+#algorithm-controls button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+#algorithm-controls button {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+#algorithm-controls button:hover {
+  background-color: #0056b3;
+}
+
+/* Visualizer */
+#visualizer {
+  min-height: 450px;
+  overflow: auto;
+  position: relative;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .tab-btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  #algorithm-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

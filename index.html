@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DSA Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>🧠 DSA Visualizer</h1>
+    <nav>
+      <button class="tab-btn" data-tab="sorting">Sorting</button>
+      <button class="tab-btn" data-tab="searching">Searching</button>
+      <button class="tab-btn" data-tab="tree">Tree</button>
+      <button class="tab-btn" data-tab="graph">Graph</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="controls">
+      <h2 class="section-title">Algorithm Controls</h2>
+      <div id="algorithm-controls">
+        <!-- Dynamic controls will be injected here -->
+      </div>
+    </section>
+
+    <section id="visualizer">
+      <h2 class="section-title">Visualization Area</h2>
+      <!-- D3 visualizations will render here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>🚀 Built with ❤️ by <strong>Khushi</strong></p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
