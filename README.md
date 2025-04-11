@@ -33,5 +33,16 @@ DSA-Visualizer/ ├── index.html ├── style.css ├── script.js ├
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/DSA-Visualizer.git
+  git clone https://github.com/Khushijoshi003/DSA-VISUALIZER.git
+
+### 📸 Screenshots
+
+#### 🧩 Sorting Visualizer
+![Sorting Screenshot](screenshots/Sorting.png)
+
+#### 🌳 Tree Traversal
+![Tree Screenshot](screenshots/Tree.png)
+
+#### 🌐 Graph Algorithm
+![Graph Screenshot](screenshots/graph.png)
 
