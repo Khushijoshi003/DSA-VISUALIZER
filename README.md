@@ -1,4 +1,4 @@
-# 🧠 DSA Visualizer
+# 🧠 DSA Insight Engine
 
 Welcome to the **DSA Visualizer** — a sleek and interactive web app that helps you visualize core Data Structures and Algorithms like **Sorting**, **Searching**, **Trees**, and **Graphs** using **D3.js**.
 
